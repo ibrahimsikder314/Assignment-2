@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body{
+    font-family:"Inter", sans-serif;
+    width: 75%;
+    margin:50px auto;
+}
+
+header{
+    background-image: linear-gradient(to right top, #090404, #161213, #1f1b1d, #272428, #2f2e33, #2f3035, #2e3136, #2e3337, #272c2f, #202527, #1a1f1f, #141818);
+    position: relative;
+
+    
+}
+
+/* navbar style starts here */
+
+
+nav{ width: 80%;
+    padding-top:50px ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 57px 190px;
+}
+
+.brand{
+    padding: 0px;
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right:37px;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home-btn{
+    margin-right: 37px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+}
+/* navbar style starts here */
+
+
+/* banner style start here */
+.banner-text{
+    color: rgb(255, 255, 255);
+}
+
+.banner-title{
+    font-size: 78px;
+    font-weight: 400;
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-title .shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 500;
+    font-size: 9rem;
+    line-height: 2rem;
+}
+
+.join-now{
+    padding: 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.normal-btn{
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 40px;
+    background: transparent;
+    border: none;
+    margin-top:-28px ;
+    border: 1px solid white;
+    color: white;
+    margin-left: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.free-video{
+    width: 193px;
+    height: 90px;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 80px;
+    top: 300px;
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+.video-tutorial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 166px;
+    height: 78px;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 410px;
+    bottom: 80px;
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+/* banner style ends here */
+
+/* habit section starts here */
+
+main {
+    background: rgb(0, 0, 0);
+   
+}
+.habit-section{
+    width: 75%;
+    height: 566px;
+    margin:0px auto;
+    position: relative;  
+}
+.habit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.habit h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.habit p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    padding: 14px;
+    text-align: center;
+}
+.habit-img{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: -60px;
+    gap: 0px 80px;
+    
+}
+
+.habit-img h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top:15px ;
+}
+.habit-img p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top:6px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.habit-img img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.5);;
+    border-radius: 50%;
+}
+/* habit section ends here */
+
+/* run section starts here */
+.run-section{
+    width: 75%;
+    height: 566px;
+    margin:0px auto;
+    position: relative;
+    background: rgb(0, 0, 0); 
+    padding-top: 100px;  
+}
+.run{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    background-color:#222222;
+    border-radius: 18px;
+   
+}
+.run-text{
+    padding-left: 54px;
+    padding-top: 41px;
+}
+.run h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 900;
+    letter-spacing: 0%;
+}
+.run p{
+    padding-top: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    padding-bottom: 34px;
+}
+.run button{
+    padding: 16px 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    
+}
+.run img{
+    position: absolute;
+    width: 366px;
+    height: 312px;
+    left: 662px;
+    bottom: 125px;
+    border-radius: 18px;
+}
+/* run section ends here */
+
+/* calculator section starts here */
+.calculator{
+    width: 75%;
+    height: 150px;
+    padding-left: 390px;
+
+}
+.calculator h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.table{
+    width: 100%;
+    height: 487px;
+    background-color:#222222; 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px;
+}
+.table caption{
+    color: rgb(255, 255, 255);
+    width: 443px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+table{
+    width: 300px;
+    height: 200px;
+}
+
+thead tbody{
+    padding-left: 82px;
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.123);
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);}
+/* calculator section ends here */
+
+/* meet our team section starts here */
+.team{
+    width: 75%;
+    height: 882px; 
+    background: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 190px;
+}
+.team img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* .team img{
+    width: 100%;
+}
+
+.team-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 58px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    margin-left: 375px;
+    margin-top: 88px;
+}
+.team-title h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.team-title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+} */
+
+/* meet our team section ends here */
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color:#1A1A1A; 
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 66px 190px;
+}
+.footer h1{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+}
+.text-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.text-2 h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;    
+}
+.text-3 h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;    
+}
+.text-2 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+.text-3 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+hr{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
