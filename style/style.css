@@ -311,88 +311,144 @@ main {
     letter-spacing: 0.3px;
     text-align: left;
 }
-.table{
-    width: 100%;
-    height: 487px;
-    background-color:#222222; 
+/* calculator section ends here */
+
+/* calculation chart section starts here */
+.challeng{
+    color: white;
+    background: rgb(34, 34, 34);
+    margin: 50px auto;
+    padding: 50px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
-    padding-top: 56px;
+    align-items: center;
 }
-.table caption{
-    color: rgb(255, 255, 255);
-    width: 443px;
-    height: 34px;
+.charttitle{
     font-size: 28px;
     font-weight: 700;
-
+    padding-bottom: 48px;
+    padding-right:20px;
 }
+
+
 table{
-    width: 300px;
-    height: 200px;
+    width: 310px;
+    height: 216px;
+    margin-bottom: 80px;
+
+
 }
 
-thead tbody{
-    padding-left: 82px;
-}
+
 table,th,td{
     border: 1px solid rgba(255, 255, 255, 0.123);
     border-collapse: collapse;
-    padding: 7px;
+    padding: 10px 10px;
+    
 }
 
 td{
-    color: rgba(255, 255, 255, 0.5);}
-/* calculator section ends here */
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.chart{
+    padding: 40px;
+    
+}
+input, select{
+    background-color: rgb(68, 67, 67);
+    width: 270px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 5px 10px 0px;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+.BMI-Calculator h1{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.BMI-Calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 14px;
+    padding-bottom: 32px;
+    letter-spacing: 1px;
+
+}
+#full{
+    width: 350px;
+    height: 40px;
+}
+.cal-btn{
+    padding: 16px 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    margin-top: 32px;
+}
+/* challenge style start */
+
+/* calculation chart section ends here */
+
 
 /* meet our team section starts here */
 .team{
     width: 75%;
     height: 882px; 
     background: rgb(0, 0, 0);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3,1fr);
-    padding-left: 190px;
-}
-.team img{
-    width: 100%;
-    height: 100%;
-    
-}
-/* .team img{
-    width: 100%;
 }
 
 .team-title{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 65%;
-    height: 58px;
     text-align: center;
-    color: white;
-    margin: 0 auto;
-    margin-left: 375px;
-    margin-top: 88px;
+    padding-top: 68px;
+    padding-left: 300px;
 }
 .team-title h1{
+    color: white;
     font-size: 48px;
     font-weight: 900;
-    line-height: 120%;
-    letter-spacing: 0%;
 }
 .team-title p{
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    color: rgba(255, 255, 255, 0.5);
-} */
+    padding-top: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    position: relative;
+}
+.parent img{
+    width: 100%;
+}
+.trainer-text{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
 
 /* meet our team section ends here */
+
+/* footer section starts here */
 
 footer{
     width: 100%;
@@ -448,7 +504,7 @@ hr{
     text-align: center;
     align-items: center;
 }
-
+/* footer section ends here */
 
 
 
