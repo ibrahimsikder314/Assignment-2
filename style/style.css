@@ -398,53 +398,69 @@ input, select{
     border: none;
     margin-top: 32px;
 }
-/* challenge style start */
 
 /* calculation chart section ends here */
 
 
 /* meet our team section starts here */
-.team{
-    width: 75%;
-    height: 882px; 
-    background: rgb(0, 0, 0);
-}
 
-.team-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.image-section {
+    padding: 20px;
     text-align: center;
-    padding-top: 68px;
-    padding-left: 300px;
 }
-.team-title h1{
+.section-header{
+    /* padding-bottom: 400px; */
+    
+}
+.section-header h1 {
+    margin: 0 ;
     color: white;
     font-size: 48px;
     font-weight: 900;
+    
 }
-.team-title p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 14px;
-    letter-spacing: 0.5px;
-    line-height: 20px;
+
+.section-header p {
+    margin-top: -10px;
+    font-size: 1.2em;
+    color: #666;
 }
-.parent{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    position: relative;
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
-.parent img{
+
+.image-item {
+    width: calc(33.333% - 40px);
+    text-align: center;
+    position: relative
+}
+
+.image-item img {
     width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
-.trainer-text{
+
+.image-info {
+    margin-top: 350px;
     position: absolute;
-    left: 20px;
-    bottom: 20px;
 }
+
+.image-info h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.image-info p {
+    font-size: 1em;
+    color: #666;
+}
+
+
 
 /* meet our team section ends here */
 
